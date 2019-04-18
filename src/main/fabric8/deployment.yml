@@ -15,4 +15,4 @@ spec:
           - name: SPRING_APPLICATION_JSON
             value: '{"server":{"undertow":{"io-threads":1, "worker-threads":2 }}}'
           - name: JAVA_OPTIONS
-            value: '-Djavax.net.ssl.trustStore=/deployments/data/uct-cacerts'
+            value: '-Djava.security.egd=file:/dev/urandom'
