@@ -1,1 +1,1 @@
-X_JAVA_OPTIONS=tbd
+JAVA_OPTIONS=-Djavax.net.ssl.trustStore=/opt/truststore/my-cacerts
