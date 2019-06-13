@@ -27,20 +27,6 @@
       <repositories>
         
         <repository>
-          <id>maven.central</id>
-          <name>Maven Central</name>
-          <url>https://repo1.maven.org/maven2</url>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <releases>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-          </releases>
-        </repository>
- 
-        
-        <repository>
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
           <url>https://maven.repository.redhat.com/ga</url>
