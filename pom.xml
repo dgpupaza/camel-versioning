@@ -10,6 +10,23 @@
   <name>Fabric8 :: Quickstarts :: Spring-Boot :: Camel REST / SQL</name>
   <description>Spring Boot example running a Camel REST route connecting to a SQL database</description>
 
+        <repositories>
+                <repository>
+                        <id>redhat-techpreview-all-repository</id>
+                        <name>RedHat Tech Preview Maven Repository (all)</name>
+                        <url>http://maven.repository.redhat.com/techpreview/all/</url>
+                        <releases>
+                                <enabled>true</enabled>
+                                <updatePolicy>never</updatePolicy>
+                        </releases>
+                        <snapshots>
+                                <enabled>false</enabled>
+                                <updatePolicy>never</updatePolicy>
+                        </snapshots>
+                </repository>
+        </repositories>
+	
+	
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- Spring Boot default profile in order to use an embedded database -->
